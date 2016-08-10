@@ -13,6 +13,7 @@
 
 
 Route::get('/', 'PagesController@home');
+Route::get('cards', 'CardsController@index');
 
 /*Route::get('/', function () {
     return view('Welcome');
